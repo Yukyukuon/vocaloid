@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>intro</title>
+</head>
+<style>
+	.xiaobiaoti
+	{
+		font-weight: bold;
+		font-family: Simsun;
+		
+	}
+	.style_1
+	{
+		font-weight: 600;
+		font-size: 20px;
+	}
+	</style>
+
+<body>
+<div align="center"><img src="picture/intro.jpeg"/></div>
+<h1> <strong>VOCALOID</strong></h1>
+<hr align="left" width="900" color="GREEN" />
+<p><strong>VOCALOID</strong>是由Yamaha開發的電子音樂歌聲合成技術，以及應用該技術的軟體。</p>
+<p>Vocaloid是日本Yamaha公司自主开发的一款音乐模拟合成软件，输入音调和歌词，就可以合成为原为人类声音的歌声。共分Vocaloid、Vocaloid 2、Vocaloid 3、Vocaloid 4四代，该软件采用同为Yamaha公司开发的「Frequency-domain Singing Articulation Splicing and Shaping」，采集不同人类的声音标本，然后再制作歌声资料库，从而合成声音。</p>
+<h3><span class="xiaobiaoti"></span>名称由來</h3>
+<p>VOCALOID这个名字，是由「vocal（歌唱）」与后缀「-oid」结合构成的。「-oid」这个后缀的意思是「类似～的」「～状的」，与「human（人类）」结合的话就是「humanoid（有人的特点的、人形机）」、和希腊语中表示男人的词语「andr」结合起来就是「android（机器人）」，而VOCALOID的意思就是「能唱歌的东西」。
+不过，名称的由来还有一种说法：「Vocal・Android（歌唱・机器人）=VOCALOID（ボーカロイド）」，意为「能歌唱的机器人」。</p>
+<h3><span class="xiaobiaoti">发行时间</span></h3>
+<table border="1">
+	<tr>
+		<td width="100" height="35">
+			<div align="center" class="style_1">版本</div>
+		</td>
+		<td width="140">
+			<div align="center" class="style_1">发行时间</div>
+		</td>
+	</tr>
+	<tr>
+       <td>Vocaloid</td>
+       <td>2004年1月 </td>
+    </tr>
+    <tr>
+       <td>Vocaloid 2 </td>
+       <td>2007年1月 </td>
+    </tr>
+    <tr>
+       <td>NetVOCALOID</td>
+       <td>2008年4月4日</td>
+    </tr>
+    <tr>
+       <td>Vocaloid 3</td>
+       <td>2011年12月22日</td>
+    </tr>
+    <tr>
+       <td>Vocaloid 4</td>
+       <td>2014年12月</td>
+    </tr>
+</table>
+<h2><strong>十二大参数</strong></h1>
+<hr align="left" width="900" color="BLUE" />
+<P>仅仅输入歌词与曲调制作歌曲会使声音生涩，应使用以下参数调和。</P>
+<P>现常用的编辑器中，VOCALOID3共有10个参数，VOCALOID4中新增2个参数，故称为十大/十二大参数。 </P>
+<p><strong>音速（VEL、Velocity）</strong></p>
+<P>影响声母的时间长度。数值越高，声母时长越短，发音越急促。</P>
+<P><strong>力度（DYN、Dynamics）</strong></P>
+<p>影响音量。数值越高，音量越大。也可以以此做到渐强或渐弱的效果。</p>
+<P><strong>呼吸声（BRE、Breathiness）</strong></P>
+<P>数值越高，气声则会越大。</P>
+<P><strong>明亮感（BRI、 Brightness）</strong></P>
+<P>影响高频率的成分。数值越高，明亮感越强；越低，则越沉稳，特别是温柔的感觉。</P>
+<P><strong>清澈感（CLE、Clearness）</strong></P>
+<P>与明亮感相似但改变声质的原理不同。数值越高，清彻感越强；越低，则越低沉。</P>
+<p><strong>口的开合度（OPE、Opening）</strong></p>
+<P>以改变音色来模拟开合度。数值越高，清彻感越强；越低，则越模糊。降低数值和配合力度参数可有效修补「爆音」。</P>
+<P><strong>性别参数（GEN、Gender Factor）</strong></P>
+<P>影响声音的结构。数值越高，男性的感觉越强；越低，则变成女性甚至幼儿的声音。</P>
+<P><strong>滑音时间（POR、Portamento Timing）</strong></P>
+<P>该参数决定两个不同音高的连续音符之间的音高变化（比如从do变成mi，音高不是瞬间变到mi，而是逐渐变过去的）的位置。<br>
+   部分教程认为POR参数改变的是音高变化速度（即变化的快慢），其实并不正确，这一点可以通过vocaloid4的音高线（Pitch Rendering）功能得出结论。<br>
+   参数范围为0~127，数值越高音高变化越靠后。</P>
+<p><strong>滑音杆（PIT、Pitch Bend）</strong></p>
+<p>可控制滑音的旋律音程上滑音或下滑音。数值越高，实际输出的音高会比输入的高；反之则越低。可用作音高调整。作用与电子琴上的“滑音轮（Pitch bend wheel）”相同。</p>
+<p><strong>滑音杆灵敏度（PBS、Pitch Bend Sensitivity）</strong></p>
+<p>该参数控制控制滑音杆的变化，参数范围为1~24（默认为2），越高变化越大，与PIT共同决定音高变化。</p>
+<p><strong>咆哮声（GWL、Growl）</strong></p>
+<p>该参数为vocaloid4编辑器新增参数，仅对vocaloid4音源有效，使歌手的声音产生嘶吼的效果</p>
+<p><strong>交叉演奏参数（XSY、Cross-Synthesis）</strong></p>
+<P>该参数为vocaloid4编辑器新增参数，仅对融合音源（即包含多种声音表情库的音源[3]）有效，用于调节融合音源的主副音源关系。</p>
+<h1><strong>制作界面</strong></h1>
+<hr align="left" width="900" color="RED" />
+<P>制作界面视频</P>
+<video width="800" height="=600" controls>
+	<source src="movie/11.mp4" type="video/mp4" >
+	</source>
+</video>
+</html>
